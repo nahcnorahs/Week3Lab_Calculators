@@ -21,7 +21,7 @@
             <input type="submit" name="operator" value="*">
             <input type="submit" name="operator" value="%">
         </form>
-        <p>${message}</p>
+        <p>Result: ${result}</p>
         <a href="age"> Age Calculator </a>
     </body>
 </html>
