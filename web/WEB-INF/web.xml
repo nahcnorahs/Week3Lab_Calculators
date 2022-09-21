@@ -4,9 +4,17 @@
         <servlet-name>AgeCalculatorServlet</servlet-name>
         <servlet-class>servlets.AgeCalculatorServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ArithmeticCalculatorServlet</servlet-name>
+        <servlet-class>servlets.ArithmeticCalculatorServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AgeCalculatorServlet</servlet-name>
         <url-pattern>/age</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ArithmeticCalculatorServlet</servlet-name>
+        <url-pattern>/ArithmeticCalculatorServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
@@ -15,5 +23,6 @@
     </session-config>
     <welcome-file-list>
         <welcome-file>age</welcome-file>
+        <welcome-file>arithmetic</welcome-file>
     </welcome-file-list>
 </web-app>
